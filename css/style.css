@@ -1,0 +1,75 @@
+/* :root{
+	--ms-primary-color-dark: #051e34;
+}
+
+.cf-debug{
+	border: 1px solid red;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.odd{
+	color:red;
+}
+.even{
+	color:green;
+}
+.box{
+	width: 90px;
+	height:90px;
+	background-color: blue;
+	color: white;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin:5px;
+}
+#boxes{
+	width: 1000px;
+	margin: 0 auto;
+} */
+:root{
+    --color-bg-page:#083B4C;
+    --color-box-bg:#1589B2;
+    --color-box3:#09D6A1;
+    --color-box5:#FFD166;
+    --color-box15:#F0476F;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+#wrapper{
+    height: 100vh;
+    background-color:var(--color-bg-page);
+    overflow-y: scroll;
+}
+.ciao{
+    height: 90%;
+}
+
+#chessboard{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    gap: 10px;
+}
+.ds-box{
+    width: calc(10% - 10px);
+    aspect-ratio: 1 / 1;
+    background-color: var(--color-box-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    background-color: var(--color-box3);
+}
+.box5{
+    background-color: var(--color-box5);
+}
+.box15{
+    background-color: var(--color-box15);
+}
