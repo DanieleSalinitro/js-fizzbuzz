@@ -33,6 +33,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 }
 .box3{
     background-color: var(--color-box3);
